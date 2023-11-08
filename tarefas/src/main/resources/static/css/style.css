@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario {
+    background-color: #fff;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
+}
+.formulario label{
+    padding:5px;
+
+}
+.formulario input{
+    padding:5px;
+    margin:5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+table tbody input {
+    height: 10;
+    width:100% ;
+    border: none;
+
+}
+.dadosTabela{
+
+    background-color: white;
+}
